@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// this is how we define a constant
 const learning = "Welcome to my app"
 
 func main() {
