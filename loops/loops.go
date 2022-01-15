@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
+const maxCounter int = 10
+
 func main() {
 	// simple count up to 7 with a simple break
 	counter := 0
-	for counter < 10 {
+	for counter < maxCounter {
 		if counter > 7 {
 			break
 		}
@@ -16,7 +18,7 @@ func main() {
 	// counting up to 10
 	counter = 0
 	for {
-		if counter > 10 {
+		if counter > maxCounter {
 			break
 		}
 		fmt.Println(counter)

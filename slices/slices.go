@@ -12,5 +12,10 @@ func main() {
 	fmt.Print("Please enter your name:")
 	fmt.Scan(&name)
 	names = append(names, name)
-	fmt.Print("Array size=", len(names))
+	fmt.Println("Array size=", len(names))
+
+	// example of a loop over the slice using the range
+	for index := range names {
+		fmt.Println("Name [", index, "]=", names[index])
+	}
 }
