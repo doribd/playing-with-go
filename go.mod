@@ -1,3 +1,3 @@
-module github.com/doribd/playing-with-go
+module pointers
 
 go 1.17

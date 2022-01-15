@@ -2,6 +2,15 @@ package main
 
 import "fmt"
 
+const learning = "Welcome to my app"
+
 func main() {
-	fmt.Println("Hi, This is Dor First GO app")
+	var myName string
+	var myNumber int
+
+	myName = "Dor"
+	myNumber = 1
+
+	fmt.Println(learning, " This is ", myName, " learning app, number ", myNumber)
+
 }

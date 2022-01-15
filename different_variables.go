@@ -2,9 +2,7 @@ package main
 
 import "fmt"
 
-/**
-* This is only for my practice, this is not the best practice of how to name variables. Better to chose good name.
- */
+// This is only for my practice, this is not the best practice of how to name variables. Better to chose good name.
 func main() {
 	var i int8 = 20
 	var f float32 = 5.6
